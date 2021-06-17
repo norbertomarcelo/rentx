@@ -1,2 +1,8 @@
 node_modules
-tmp
+.vscode
+tmp/*
+coverage
+.env
+!tmp/.gitkeep
+dist
+package-lock.json

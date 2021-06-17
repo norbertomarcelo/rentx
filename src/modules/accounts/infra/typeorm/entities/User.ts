@@ -3,7 +3,7 @@ import { v4 as uuidV4 } from "uuid";
 
 @Entity("users")
 class User {
-
+  
   @PrimaryColumn()
   id: string;
 
