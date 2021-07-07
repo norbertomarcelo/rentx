@@ -6,7 +6,7 @@ import {
   ISpecificationsRepository,
 } from "@modules/cars/repositories/ISpecificationsRepository";
 
-class SpecificationsRpository implements ISpecificationsRepository {
+class SpecificationsRepository implements ISpecificationsRepository {
   private repository: Repository<Specification>;
 
   constructor() {
@@ -39,4 +39,4 @@ class SpecificationsRpository implements ISpecificationsRepository {
   }
 }
 
-export { SpecificationsRpository };
+export { SpecificationsRepository };
